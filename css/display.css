@@ -1,0 +1,105 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#head{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-bottom: 5px solid red;
+}
+
+.jumbotron{
+    text-align: center;
+}
+.jumbotron h1{
+    text-align: center;
+    font-weight: 700;
+
+}
+.text{
+   text-align: center;
+    color: black;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+.content{
+    text-align: center;
+    margin: 0px auto;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bolder;
+}
+.btn{
+    position: relative;
+    left: 25%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-bottom: 10px;
+}
+
+
+/* .form-control {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+ */
+
+
+
+
+@media (min-width: 995px) {
+    img{
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    img{
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
